@@ -9,12 +9,13 @@ export default function TutorialCard({ tutorial, onOpen }) {
       >
         {tutorial.video ? (
           <video
-            className="tutorial-thumbnail"
-            src={tutorial.video}
-            preload="metadata"
-            muted
-            playsInline
-          />
+  className="tutorial-thumbnail"
+  src={tutorial.video}
+  poster={tutorial.poster}
+  preload="metadata"
+  muted
+  playsInline
+/>
         ) : (
           <div className="preview-grid" aria-hidden="true" />
         )}

@@ -10,6 +10,7 @@ export const TUTORIALS = [
     duration: "7:27",
     author: "Eph",
     video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/axis-multi-embodiment-beginners.mp4",
+    poster: "/images/tutorial-01.png",
   },
 
   {
@@ -19,7 +20,8 @@ export const TUTORIALS = [
     level: "Beginner",
     duration: "2:47",
     author: "axisrobotics",
-    video: "/videos/post-training-score-high.mp4",
+    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/post-training-score-high.mp4",
+    poster: "/images/tutorial-02.png",
   },
 
   {
@@ -30,7 +32,8 @@ export const TUTORIALS = [
   level: "Advanced",
   duration: "6:52",
   author: "Eph",
-  video: "/videos/checkpoints-double-click-high-score.mp4",
+  video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/checkpoints-double-click-high-score.mp4",
+  poster: "/images/tutorial-03.png",
 },
   {
     id: "04",
@@ -40,7 +43,8 @@ export const TUTORIALS = [
     
     duration: "8:21",
     author: "axisrobotics",
-    video: "/videos/full-walkthrough-beginner.mp4",
+    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/full-walkthrough-beginner.mp4",
+    poster: "/images/tutorial-04.png",
   },
 
   {
@@ -52,7 +56,8 @@ export const TUTORIALS = [
     
     duration: "5:25",
     author: "Sunny",
-    video: "/videos/axis-robot-control-pro-tips.mp4",
+    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/axis-multi-embodiment-beginners.mp4",
+    poster: "/images/tutorial-05.png",
   },
 
   {
@@ -64,7 +69,8 @@ export const TUTORIALS = [
                             
     duration: "4:57",
     author: "KosiOkorie",
-    video: "/videos/Control Basics.mp4",
+    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/Control%20Basics.mp4",
+    poster: "/images/tutorial-06.png",
   },
 ];
 export const AUTHORS = [
