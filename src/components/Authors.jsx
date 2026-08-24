@@ -6,7 +6,7 @@ const AUTHORS = [
   },
   {
     username: "axisrobotics",
-    avatar: "/authors/axis.jpg",
+    avatar: "/images/axis.jpg",
     x: "https://x.com/axisrobotics",
   },
   {
