@@ -1,22 +1,22 @@
 const AUTHORS = [
   {
     username: "Eph",
-    avatar: "src/authors/1.jpg",
-    x: "https://x                       .com/laibatdauthoi",
+    avatar: "/authors/1.jpg",
+    x: "https://x.com/laibatdauthoi",
   },
   {
     username: "axisrobotics",
-    avatar: "src/authors/axis.jpg",
+    avatar: "/authors/axis.jpg",
     x: "https://x.com/axisrobotics",
   },
   {
     username: "KosiOkorie",
-    avatar: "src/authors/2.jpg",
+    avatar: "/authors/2.jpg",
     x: "https://x.com/KosiOkorie",
   },
   {
     username: "Sunny",
-    avatar: "src/authors/3.jpg",
+    avatar: "/authors/3.jpg",
     x: "https://x.com/Rabiussunny11",
   },
 ];
