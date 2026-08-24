@@ -2,7 +2,7 @@ const AUTHORS = [
   {
     username: "Eph",
     avatar: "src/authors/1.jpg",
-    x: "https://x.com/laibatdauthoi",
+    x: "https://x                       .com/laibatdauthoi",
   },
   {
     username: "axisrobotics",
@@ -26,7 +26,7 @@ export default function Authors() {
     <section className="section authors-section" id="authors">
       <div className="authors-heading">
         <div>
-          <p className="section-kicker">02 / AUTHORS</p>
+          <p className="authors-kicker">02 / AUTHORS</p>
 
           <h2>The people behind the videos.</h2>
         </div>

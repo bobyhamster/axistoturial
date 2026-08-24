@@ -9,7 +9,7 @@ export const TUTORIALS = [
     level: "Beginner",
     duration: "7:27",
     author: "Eph",
-    video: "/videos/axis-multi-embodiment-beginners.mp4",
+    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/axis-multi-embodiment-beginners.mp4",
   },
 
   {
