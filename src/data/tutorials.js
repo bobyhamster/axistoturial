@@ -49,11 +49,12 @@ export const TUTORIALS = [
 
   {
     id: "05",
-    title: "Control Basics",
+    title: "Controls & Pro Tips",
     description:
-      "This video will help you control the robot well",
+      "Learn the basics of Axis robot controls, key functions, and pro tips to complete tasks more efficiently",
     level: "Beginner",
     
+
     duration: "5:25",
     author: "Sunny",
     video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/axis-multi-embodiment-beginners.mp4",
