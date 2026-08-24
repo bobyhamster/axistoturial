@@ -28,22 +28,24 @@ export default function Hero() {
             </a>
 
             <p className="hero-credit">
-              Created by members of the Axis community
-              <br />
-              <a
-                href="#"
-                onClick={(e) => e.preventDefault()}
-              >
-                samurai_itan
-              </a>{" "}
-              and{" "}
-              <a
-                href="#"
-                onClick={(e) => e.preventDefault()}
-              >
-                bobyhamster
-              </a>
-            </p>
+  Created by members of the Axis community:
+  <br />
+  <a
+    href="https://x.com/samurai_itan"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    samurai_itan
+  </a>{" "}
+  and{" "}
+  <a
+    href="https://x.com/bobyhamster"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    bobyhamster
+  </a>
+</p>
           </div>
         </div>
 

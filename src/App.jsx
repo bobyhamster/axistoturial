@@ -33,13 +33,14 @@ export default function App() {
         <Hero />
 
         <section id="tutorials" className="section tutorials-section">
-          <p className="section-kicker">01 / TUTORIALS</p>
+  <div className="authors-heading">
+    <div>
+      <p className="authors-kicker">01 / TUTORIALS</p>
+      <h2>Where should we start?</h2>
+    </div>
+  </div>
 
-          <div className="section-heading">
-  <h2>Where should we start?</h2>
-</div>
-
-          <LevelSelector onSelect={selectLevel} />
+  <LevelSelector onSelect={selectLevel} />
 
           <div id="tutorial-list" className="tutorial-grid">
             {visibleTutorials.map((tutorial) => (
@@ -105,7 +106,7 @@ export default function App() {
   }}
 >
   <img
-    src="/images/AXIS.jpg"
+    src="/images/axis.jpg"
     alt="Axis"
   />
 </a>

@@ -600,9 +600,11 @@ h2 {
 
 .authors-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 45px;
+  grid-template-columns: repeat(2, 1fr);
+
   border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+  border-right: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
 
@@ -1372,8 +1374,8 @@ h2 {
 }
 
 .community-icon {
-  width: 54px;
-  height: 54px;
+  width: 60px;
+  height: 60px;
 
   display: flex;
   align-items: center;
@@ -1429,8 +1431,8 @@ h2 {
 }
 
 .community-icon {
-  width: 54px;
-  height: 54px;
+  width: 40px;
+  height: 40px;
 
   display: flex;
   align-items: center;
@@ -1491,20 +1493,12 @@ h2 {
   transform: translate(50px, 30px);
   margin: 0;
 }
-.sectionKicker {
-  font-size: 14px;
-  line-height: 1;
-  font-weight: 500;
-  letter-spacing: -0.3px;
-  color: #f2f4f2;
-}
-.section-kicker {
-  font-size: 14px;
-  line-height: 1;
-  font-weight: 500;
-  letter-spacing: -0.3px;
-  color: #f2f4f2;
-}
+/* =========================
+   FINAL HEADER ALIGNMENT
+========================= */
+
+.sectionKicker,
+.section-kicker,
 .authors-kicker {
   margin: 0 0 24px;
   color: #69726c;
@@ -1514,12 +1508,25 @@ h2 {
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
-.authors-heading .section-kicker {
-  margin: 1em 0;
-  color: inherit;
-  font-size: 16px;
-  line-height: normal;
-  font-weight: 400;
-  letter-spacing: normal;
-  text-transform: none;
+
+/* 01 / TUTORIALS — same heading structure as 02 / AUTHORS */
+.tutorials-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+.tutorials-heading h2 {
+  margin: 0;
+  color: #f2f4f2;
+  font-size: 38px;
+  line-height: 1;
+  letter-spacing: -2px;
+  font-weight: 600;
+}
+
+.tutorials-heading .authors-kicker {
+  margin: 0 0 24px;
 }
