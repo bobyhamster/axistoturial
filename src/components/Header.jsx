@@ -19,6 +19,12 @@ export default function Header() {
       <nav className="main-nav" aria-label="Main navigation">
         <a className="active" href="#tutorials">Tutorials</a>
         <a href="#authors">Authors</a>
+         <a
+    className="language-switch"
+    href="https://axistoturialru.vercel.app/"
+  >
+    RU
+  </a>
       </nav>
     </header>
   );

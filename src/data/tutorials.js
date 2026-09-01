@@ -9,7 +9,7 @@ export const TUTORIALS = [
     level: "Beginner",
     duration: "7:27",
     author: "Eph",
-    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/axis-multi-embodiment-beginners.mp4",
+    video: "https://github.com/bobyhamster/axistoturial/releases/download/viodeo/axis-multi-embodiment-beginners.mp4",
     poster: "/images/tutorial-01.png",
   },
 
@@ -20,7 +20,7 @@ export const TUTORIALS = [
     level: "Beginner",
     duration: "2:47",
     author: "axisrobotics",
-    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/post-training-score-high.mp4",
+    video: "https://github.com/bobyhamster/axistoturial/releases/download/viodeo/post-training-score-high.mp4",
     poster: "/images/tutorial-02.png",
   },
 
@@ -32,7 +32,7 @@ export const TUTORIALS = [
   level: "Advanced",
   duration: "6:52",
   author: "Eph",
-  video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/checkpoints-double-click-high-score.mp4",
+  video: "https://github.com/bobyhamster/axistoturial/releases/download/viodeo/checkpoints-double-click-high-score.mp4",
   poster: "/images/tutorial-03.png",
 },
   {
@@ -43,7 +43,7 @@ export const TUTORIALS = [
     
     duration: "8:21",
     author: "axisrobotics",
-    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/full-walkthrough-beginner.mp4",
+    video: "https://github.com/bobyhamster/axistoturial/releases/download/viodeo/full-walkthrough-beginner.mp4",
     poster: "/images/tutorial-04.png",
   },
 
@@ -57,7 +57,7 @@ export const TUTORIALS = [
 
     duration: "5:25",
     author: "Sunny",
-    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/axis-multi-embodiment-beginners.mp4",
+    video: "https://github.com/bobyhamster/axistoturial/releases/download/viodeo/axis-robot-control-pro-tips.mp4",
     poster: "/images/tutorial-05.png",
   },
 
@@ -70,9 +70,20 @@ export const TUTORIALS = [
                             
     duration: "4:57",
     author: "KosiOkorie",
-    video: "https://quspm8uskq6zr4kg.public.blob.vercel-storage.com/Control%20Basics.mp4",
+    video: "https://github.com/bobyhamster/axistoturial/releases/download/viodeo/Control.Basics.mp4",
     poster: "/images/tutorial-06.png",
   },
+  {
+  id: "07",
+  title: "Precise Dragging tutorial",
+  description:
+    "How to click and drag the gripper to avoid missing the target, especially in RoboCasa tasks",
+  level: "Advanced",
+  duration: "6:52",
+  author: "Eph",
+  video: "https://github.com/bobyhamster/axistoturial/releases/download/viodeo/Precise.Dragging.tutorial.mp4",
+  poster: "/images/tutorial-07.png",
+},
 ];
 export const AUTHORS = [
   {
