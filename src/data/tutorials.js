@@ -84,6 +84,17 @@ export const TUTORIALS = [
   video: "https://github.com/bobyhamster/axistoturial/releases/download/viodeo/Precise.Dragging.tutorial.mp4",
   poster: "/images/tutorial-07.png",
 },
+{
+  id: "08",
+  title: "Flat objects tutorial",
+  description:
+    "How to pick up flat objects off a surface more easilye",
+  level: "Advanced",
+  duration: "2:19",
+  author: "Eph",
+  video: "https://github.com/bobyhamster/axistoturial/releases/download/viodeo/phone.mp4",
+  poster: "/images/tutorial-08.jpg",
+},
 ];
 export const AUTHORS = [
   {
